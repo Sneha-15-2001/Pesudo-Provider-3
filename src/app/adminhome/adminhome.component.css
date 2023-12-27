@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+  }
+
+  /* Style for Welcome heading */
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  /* Style for button group */
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Style for buttons */
+  .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+
+  /* Hover effect for buttons */
+  .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
